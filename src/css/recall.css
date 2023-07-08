@@ -1,0 +1,61 @@
+.recall {
+}
+.container {
+}
+.recall-tittle {
+  color: var(--primary-dark-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  max-width: 315px;
+  margin-bottom: 20px;
+}
+.recall-text {
+  color: var(--primary-dark-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  max-width: 321px;
+  margin-bottom: 40px;
+}
+.recall-form {
+}
+.recall-line {
+  border-radius: 100px;
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+}
+.recall-label {
+}
+.recall-input {
+  border: none;
+}
+.recall-input::placeholder {
+  color: #c1bdbd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+.recall-btn {
+  border-radius: 100px;
+  background: #fc8a11;
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+}
