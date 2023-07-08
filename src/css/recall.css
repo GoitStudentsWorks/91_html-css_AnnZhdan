@@ -19,7 +19,6 @@
   color: var(--primary-dark-color);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -32,12 +31,14 @@
 .recall-line {
   border-radius: 100px;
   border: 1px solid #141414;
-  opacity: 0.30000001192092896;
+  max-width: 335px;
+  width: 100%;
 }
 .recall-label {
 }
 .recall-input {
   border: none;
+  padding: 15px 0;
 }
 .recall-input::placeholder {
   color: #c1bdbd;
@@ -58,4 +59,5 @@
   text-transform: capitalize;
   border: none;
   cursor: pointer;
+  margin-right: 0 auto;
 }
