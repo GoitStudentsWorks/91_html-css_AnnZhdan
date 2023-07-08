@@ -10,13 +10,13 @@
 @import url('./about.css');
 @import url('./instruction.css');
 @import url('./store.css');
-@import url('./modal.css');
 @import url('./recall.css');
 @import url('./footer.css');
+@import url('./modal.css');
 
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family:'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -29,4 +29,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --primary-dark-color: #141414;
+  --primary-green-color: #A1C487;
+  --secondary-green-color: #EAF7E5;
+  --accent-color: #FC8A11;
+  --light-bg-color: #FAF3E7;
+  --white-gray-color: #F3F3F3;
 }
