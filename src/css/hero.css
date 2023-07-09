@@ -1,50 +1,9 @@
 .hero {
   background-color: var(--primary-green-color);
-  padding: 48px 20px 20px;
-}
-.hero-header {
-  color: #fff;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 44px;
-  letter-spacing: -1.6px;
-  text-transform: uppercase;
-  padding-bottom: 14px;
-  min-width: 335px;
-}
-.hero-tex {
-  color: #fff;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.56px;
-  min-width: 335px;
-  padding-bottom: 20px;
-}
-.hero-btn {
-  width: 68px;
-  height: 68px;
-  background-color: var(--light-bg-color);
-  border-radius: 50%;
-  border: none;
-  color: var(--accent-color);
-  text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: -0.56px;
-  text-transform: uppercase;
-  transform: rotate(-14deg);
-  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
-    color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.hero-btn:hover {
-  background-color: var(--secondary-green-color);
-  color: var(--primary-green-color);
+  padding: 48px 20px 20px 20px;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
 }
 .hero-reviews {
   padding-bottom: 14px;
@@ -100,22 +59,57 @@
   line-height: 10px;
   letter-spacing: -0.32px;
 }
-.hero-photo-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 16px;
+.hero-header {
+  color: #fff;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  min-width: unset;
 }
-.hero-photo-background {
-  width: 186px;
-  height: 280px;
-  transform: rotate(-104.004deg);
-  background-color: #fff;
-  border-radius: 500px;
+.hero-tex {
+  color: #fff;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  min-width: unset;
+  padding-bottom: 20px;
 }
+.hero-btn {
+  width: 68px;
+  height: 68px;
+  background-color: var(--light-bg-color);
+  border-radius: 50%;
+  border: none;
+  color: var(--accent-color);
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.56px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  transform: rotate(-14deg);
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero-btn:hover {
+  background-color: var(--secondary-green-color);
+  color: var(--primary-green-color);
+}
+
 .hero-photo-img {
-  position: absolute;
+  margin: 0 auto;
+}
+.hero-tegs-wrapper {
+  max-width: 375px;
 }
 .hero-list {
   display: flex;
@@ -124,6 +118,7 @@
 }
 .hero-list-first {
   margin-bottom: 4px;
+  align-self: center;
 }
 .hero-list-item-first {
   color: var(--primary-dark-color);
@@ -150,4 +145,184 @@
   padding: 8px 14px;
   border-radius: 1000px;
   border: 1px solid #fff;
+}
+@media screen and (min-width: 375px) {
+  .hero {
+    max-width: 375px;
+  }
+  .hero-header {
+    min-width: 335px;
+    max-width: 335px;
+  }
+  .hero-tex {
+    min-width: 335px;
+    max-width: 335px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 64px 32px 32px 32px;
+    max-width: 768px;
+  }
+  .hero-reviews {
+    padding-bottom: 18px;
+  }
+  .hero-reviews-photo1 {
+    width: 50px;
+    height: 50px;
+  }
+  .hero-reviews-photo2 {
+    width: 50px;
+    height: 50px;
+    left: 34px;
+    top: 0;
+  }
+  .hero-reviews-photo3 {
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 69px;
+  }
+  .hero-reviews-tex {
+    height: 54px;
+    width: 54px;
+    top: 0;
+    left: 104px;
+  }
+  .hero-reviews-p1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+  }
+  .hero-reviews-p2 {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.32px;
+  }
+  .hero-header {
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -2.16px;
+    min-width: 656px;
+    max-width: 656px;
+    padding-bottom: 16px;
+  }
+  .hero-tex {
+    min-width: 490px;
+    max-width: 490px;
+    padding-bottom: 32px;
+  }
+  .hero-btn {
+    width: 114px;
+    height: 114px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.96px;
+  }
+  .hero-photo-img {
+    width: 466px;
+    height: 380px;
+  }
+  .hero-tegs-wrapper {
+    max-width: 768px;
+  }
+  .hero-list-first {
+    margin-bottom: 8px;
+  }
+  .hero-list-item-first {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+    padding: 10px 20px;
+  }
+  .hero-list-item {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    padding: 132px 32px 32px 32px;
+  }
+  .hero-reviews-photo1 {
+    width: 66px;
+    height: 66px;
+  }
+  .hero-reviews-photo2 {
+    width: 66px;
+    height: 66px;
+    left: 45px;
+    top: 0;
+  }
+  .hero-reviews-photo3 {
+    width: 66px;
+    height: 66px;
+    top: 0;
+    left: 90px;
+  }
+  .hero-reviews-tex {
+    height: 70px;
+    width: 70px;
+    top: 0;
+    left: 136px;
+  }
+  .hero-reviews-p1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.96px;
+  }
+  .hero-reviews-p2 {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+  }
+  .hero-header {
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -2.56px;
+    min-width: 672px;
+    max-width: 672px;
+    padding-bottom: 16px;
+  }
+  .hero-tex {
+    min-width: 491px;
+    max-width: 491px;
+    padding-bottom: 32px;
+  }
+  .hero-btn {
+    width: 132px;
+    height: 132px;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -1.12px;
+  }
+  .hero-photo-img {
+    width: 515px;
+    height: 423px;
+  }
+  .hero-tegs-wrapper {
+    max-width: 1280px;
+  }
+  .hero-list {
+    gap: 8px;
+  }
+  .hero-list-first {
+    margin-bottom: 8px;
+  }
+  .hero-list-item-first {
+    padding: 12px 32px;
+  }
+  .hero-list-item {
+    padding: 12px 32px;
+  }
 }
