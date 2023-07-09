@@ -46,8 +46,9 @@ body {
 /* About */
 
 .first-section {
-  padding: 80px;
-}
+  padding-top: 80px ;
+
+} 
 
 .vegetable-container {
   display: flex;
