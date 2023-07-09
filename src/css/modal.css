@@ -627,7 +627,7 @@
   gap: 15px;
   border-radius: 100px;
   background: var(--accent-color);
-  color: va(--white);
+  color: var(--white);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
