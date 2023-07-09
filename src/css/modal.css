@@ -642,5 +642,5 @@
 }
 
 .modal-buttom:is(:focus, :hover) {
-  background-color: var(--accent-color);
+  background-color: var(--primary-green-color);
 }
