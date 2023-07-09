@@ -30,6 +30,9 @@ img {
   height: auto;
 }
 
+body {
+  margin: 0;
+}
 @media screen and (min-width: 375px) {
 
 .container {
