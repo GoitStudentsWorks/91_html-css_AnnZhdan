@@ -642,5 +642,5 @@
 }
 
 .modal-buttom:is(:focus, :hover) {
-  background-color: var(--pressed-state);
+  background-color: var(--accent-color);
 }
