@@ -1,11 +1,14 @@
 .hero {
   background-color: var(--primary-green-color);
   width: 100%;
+  padding-top: 48px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 .hero-container {
   max-width: 375px;
-  margin: 0 auto;
-  padding: 48px 20px 20px 20px;
+  width: calc(100% - 40px);
+  /* background-color: var(--primary-green-color); */
 }
 
 .hero-reviews {
@@ -151,7 +154,6 @@
 }
 @media screen and (min-width: 375px) {
   .hero {
-    max-width: 375px;
   }
   .hero-header {
     min-width: 335px;
@@ -163,8 +165,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .hero {
-    padding: 64px 32px 32px 32px;
+  .hero-container {
     max-width: 768px;
   }
   .hero-reviews {
@@ -248,13 +249,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
+  .hero-container {
     width: 100%;
     max-width: 1280px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     gap: 29px;
-    padding: 132px 32px 32px 32px;
   }
   .hero-reviews-photo1 {
     width: 66px;
