@@ -112,7 +112,7 @@
   }
   .recall-img {
     border-radius: 80px;
-    background-image: url(../img/recall/bg-tabl-m.png);
+    background-image: url(/img/recall/bg-tabl-m.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@
     display: block;
   }
   .recall-img {
-    background-image: url(../img/recall/bg-desc-max.png);
+    background-image: url(/img/recall/bg-desc-max.png);
   }
   .recall-loc {
     display: flex;

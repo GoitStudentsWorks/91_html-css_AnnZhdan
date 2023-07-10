@@ -1,4 +1,8 @@
 /* Reset styles */
+body {
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -10,9 +14,9 @@ p {
 }
 
 ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 a {
@@ -30,41 +34,61 @@ img {
   height: auto;
 }
 
-body {
-  margin: 0 auto;
-}
-@media screen and (min-width: 375px) {
-
 .container {
-  max-width: 375px;
   width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 375px) {
+.container {
+  width: 375px;
   padding: 0 20px 0 20px;
   margin: 0 auto;
 }
-
 .section {
   padding-bottom: 80px;
   }
-
 }
 
 @media screen and (min-width: 768px){
   .container {
-  max-width: 768px;
-  padding: 0 32px 0 32px;  }
-
+  width: 768px;
+  padding: 0 32px 0 32px; 
+ }
   .section {
   padding-bottom:100px;}
 }
 
-
-
 @media screen and (min-width: 1280px){
-.container {
-width: 100%;
-max-width: 1280px;
-} 
-.section {
+ .container {
+ width: 1280px;
+ }  
+ .section {
   padding-bottom: 124px;
   }
 }
+/* 
+
+
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} */
