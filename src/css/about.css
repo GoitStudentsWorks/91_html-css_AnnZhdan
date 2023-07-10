@@ -31,17 +31,12 @@ img {
   text-decoration: none;
 }
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background-color: #fff;
-  color: #141414;
-}
 
-.container {
+/* .container {
   padding: 0 20px;
   margin: 0 auto;
   /* outline: 1px solid; */
-}
+ 
 
 /* About */
 
@@ -93,16 +88,16 @@ body {
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  /* .container {
     max-width: 375px;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
     padding: 0 32px;
-  }
+  } */
 
   .first-section {
     padding-top: 100px;
@@ -151,9 +146,9 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  /* .container {
     max-width: 1280px;
-  }
+  } */
 
   .first-section {
     padding-top: 124px;
