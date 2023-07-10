@@ -102,7 +102,7 @@
     max-width: 704px;
   }
   .section-instruction {
-    padding: 0px 32px;
+    /* padding: 0px 32px; */
     margin-bottom: 101px;
   }
   .instruction-container {
