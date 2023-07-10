@@ -74,15 +74,13 @@
 }
 
 .modal-btn:hover {
-  background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: var(--primary-green-color);
 }
 
 .modal-btn:focus {
-  background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: var(--primary-green-color);
 }
 
 .modal_christ {
@@ -99,7 +97,7 @@
 }
 
 .modalp {
-  color: #141414;
+  color: var(--primary-dark-color);
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
   font-size: 28px;
@@ -113,7 +111,7 @@
 
 @media screen and (min-width: 768px) {
   .modalp {
-    color: #141414;
+    color: var(--primary-dark-color);
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-family: DM Sans;
     font-size: 40px;
@@ -130,7 +128,7 @@
 
 @media screen and (min-width: 1158px) {
   .modalp {
-    color: #141414;
+    color: var(--primary-dark-color);
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-family: DM Sans;
     font-size: 40px;
@@ -174,7 +172,7 @@
 }
 
 .modal-li {
-  background-color: #faf3e7;
+  background-color: var(--light-bg-color);
   display: flex;
   padding-top: 14px;
   padding-bottom: 8px;
@@ -186,7 +184,7 @@
 
 @media screen and (min-width: 768px) {
   .modal-li {
-    background-color: #faf3e7;
+    background-color: var(--light-bg-color);
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -201,7 +199,7 @@
 
 @media screen and (min-width: 1158px) {
   .modal-li {
-    background-color: #faf3e7;
+    background-color: var(--light-bg-color);
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -236,7 +234,7 @@
 }
 
 .modal-h5 {
-  color: #141414;
+  color: var(--primary-dark-color);
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -248,7 +246,7 @@
 
 @media screen and (min-width: 768px) {
   .modal-h5 {
-    color: #141414;
+    color: var(--primary-dark-color);
     font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
@@ -261,7 +259,7 @@
 
 @media screen and (min-width: 1158px) {
   .modal-h5 {
-    color: #141414;
+    color: var(--primary-dark-color);
     font-family: DM Sans;
     font-size: 24px;
     font-style: normal;
@@ -273,7 +271,7 @@
 }
 
 .modal-p {
-  color: #141414;
+  color: var(--primary-dark-color);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -284,7 +282,7 @@
 
 @media screen and (min-width: 768px) {
   .modal-p {
-    color: #141414;
+    color: var(--primary-dark-color);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -296,7 +294,7 @@
 
 @media screen and (min-width: 1158px) {
   .modal-p {
-    color: #141414;
+    color: var(--primary-dark-color);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -432,7 +430,7 @@
 .modal-check-text .modal-span {
   width: 16px;
   height: 16px;
-  border: 1px solid #a1c487;
+  border: 1px solid var(--primary-green-color);
   border-radius: 2px;
 }
 
@@ -442,7 +440,7 @@
 
     width: 20px;
     height: 20px;
-    border: 1px solid #a1c487;
+    border: 1px solid var(--primary-green-color);
     border-radius: 2px;
     margin-right: 0px;
     display: flex;
@@ -458,8 +456,8 @@
 
 .modal-input-check:checked + .modal-check-text span {
   background-color: #f8f8fa;
-  border: 1px solid #a1c487;
-  fill: #a1c487;
+  border: 1px solid var(--primary-green-color);
+  fill: var(--primary-green-color);
 }
 
 .modal-form {
@@ -583,11 +581,11 @@
 }
 
 .modal_icon:focus {
-  border-color: #4d5ae5;
+  border-color: var(--primary-green-color);
 }
 
 .modal_icon:hover {
-  border-color: #4d5ae5;
+  border-color: var(--primary-green-color);
 }
 
 .modal_text {
@@ -615,11 +613,11 @@
 }
 
 .modal_text:focus {
-  border-color: #4d5ae5;
+  border-color: var(--primary-green-color);
 }
 
 .modal_text:hover {
-  border-color: #4d5ae5;
+  border-color: var(--primary-green-color);
 }
 
 .modal-buttom {
@@ -628,8 +626,8 @@
   align-items: center;
   gap: 15px;
   border-radius: 100px;
-  background: #fc8a11;
-  color: #fff;
+  background: var(--accent-color);
+  color: var(--white);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -642,5 +640,5 @@
 }
 
 .modal-buttom:is(:focus, :hover) {
-  background-color: var(--accent-color);
+  background-color: var(--primary-green-color);
 }
