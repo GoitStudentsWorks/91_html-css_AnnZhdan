@@ -42,6 +42,7 @@
   text-transform: uppercase;
 }
 .garden-text {
+  max-width: 332px;
   color: #141414;
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
@@ -54,6 +55,7 @@
 }
 .garden-menu {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 24px;
 }
@@ -63,6 +65,10 @@
   height: 443px;
   background-color: #eaf7e5;
   border-radius: 10px;
+}
+
+.garden-list:nth-child(9) {
+  display: none;
 }
 
 .garden-item {
@@ -78,51 +84,6 @@
   margin-left: 20px;
 }
 
-.garden-img {
-  width: 299px;
-  height: 249px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-bottom: 80px;
-}
-
-.garden-link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.garden-shadow {
-  padding-bottom: 60px;
-  width: 195px;
-  height: 38px;
-  fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
-  position: absolute;
-  bottom: 0;
-}
-
-.garden-price {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  color: #141414;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.56px;
-}
 .garden-subtitle {
   color: #141414;
   font-family: DM Sans;
@@ -142,6 +103,31 @@
   letter-spacing: -0.36px;
 }
 
+.garden-img {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.garden-price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+
 .garden-btn-container {
   display: flex;
   justify-content: center;
@@ -150,6 +136,7 @@
 }
 
 .garden-btn {
+  margin-top: 40px;
   transform: rotate(-14deg);
   width: 80px;
   height: 80px;
@@ -198,6 +185,7 @@
   }
 
   .garden-text {
+    max-width: 562px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -213,13 +201,21 @@
     height: 465px;
   }
 
+  .garden-item {
+    min-height: 80px;
+  }
+
   .garden-item-cup {
     margin-top: 64px;
   }
 
   .garden-img {
-    width: 321px;
-    height: 261px;
+    margin-left: 10px;
+    margin-right: 11px;
+  }
+
+  .garden-images {
+    transform: scale(1.1257);
   }
 
   .garden-price {
@@ -262,7 +258,16 @@
     width: 389px;
   }
 
+  .garden-list:nth-child(9) {
+    display: block;
+  }
+
   .garden-item-cup {
     margin-top: 40px;
+  }
+
+  .garden-img {
+    margin-left: 34px;
+    margin-right: 34px;
   }
 }
