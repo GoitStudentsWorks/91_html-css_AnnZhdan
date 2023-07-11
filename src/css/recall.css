@@ -1,7 +1,6 @@
 .recall-tittle {
   color: var(--primary-dark-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
@@ -15,7 +14,6 @@
 .recall-text {
   color: var(--primary-dark-color);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -24,13 +22,11 @@
   width: 100%;
   margin-bottom: 40px;
 }
-.recall-form {
-  margin-bottom: 40px;
-}
 
 .recall-form {
   display: inline-flex;
   justify-content: end;
+  margin-bottom: 40px;
 }
 .recall-input {
   padding: 15px 0;
@@ -46,6 +42,10 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
+}
+.recall-line {
+  display: flex;
+  justify-content: center;
 }
 .recall-btn {
   border-radius: 100px;
@@ -76,6 +76,8 @@
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
+}
+.recall-loc {
 }
 
 @media screen and (min-width: 768px) {
