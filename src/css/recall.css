@@ -127,9 +127,10 @@
     border-radius: 80px;
     background-image: url(/img/recall/bg-tabl-m.png);
     display: flex;
-    justify-content: center;
     align-items: center;
     padding-top: 80px;
+    width: 704px;
+    height: 463px;
   }
   .recall-loc {
     padding: 0;
