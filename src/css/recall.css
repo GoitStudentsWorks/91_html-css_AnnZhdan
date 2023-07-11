@@ -109,16 +109,19 @@
     max-width: 499px;
     text-align: center;
     margin: auto;
-    padding-top: 20px;
   }
   .recall-line {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    width: 355px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 80px;
   }
-  .recall-input {
-    width: 350px;
+  .recall-form {
+    width: 100%;
+    margin: 0;
   }
   .recall-img {
     border-radius: 80px;
@@ -127,6 +130,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 80px;
+  }
+  .recall-loc {
+    padding: 0;
   }
 }
 @media screen and (min-width: 1280px) {
