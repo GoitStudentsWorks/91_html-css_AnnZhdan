@@ -1,7 +1,7 @@
 .instruction-container {
   width: 335px;
   border-radius: 40px;
-  background-color: #faf3e7;
+  background-color: var(--light-bg-color);
   background-image: url(/img/instruction/bg-mobile-1x.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,17 +110,17 @@
   /* .container {
     max-width: 704px;
   } */
-  .section-instruction {
-    /* padding: 0px 32px; */
-    /* margin-bottom: 101px; */
-  }
+  /* .section-instruction {
+    padding: 0px 32px;
+    margin-bottom: 101px;
+  } */
 
   .instruction-container {
     padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
-    background-color: #faf3e7;
+    background-color: var(--light-bg-color);
     background-image: url(/img/instruction/bg-tablet-1x.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -180,7 +180,7 @@
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
-    background-color: #faf3e7;
+    background-color: var(--light-bg-color);
     background-image: url(/img/instruction/bg-desktop-1x.png);
     background-repeat: no-repeat;
     background-position: center;
