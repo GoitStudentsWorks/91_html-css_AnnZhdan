@@ -39,7 +39,7 @@ line-height: 18px;
 letter-spacing: -0.56px;
 }
 .header-basket-icon{
- color:var(--primary-dark-color) ;
+fill:var(--primary-dark-color);
 }
 }
 @media screen and (min-width: 1280px){
