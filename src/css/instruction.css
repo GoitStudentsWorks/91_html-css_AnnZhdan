@@ -101,8 +101,9 @@
   } */
   .section-instruction {
     /* padding: 0px 32px; */
-    margin-bottom: 101px;
+    /* margin-bottom: 101px; */
   }
+  
   .instruction-container {
     padding: 0;
     flex-wrap: unset;
@@ -147,9 +148,9 @@
     max-width: 1216px;
   } */
 
-  .section-instruction {
+  /* .section-instruction {
     margin-bottom: 124px;
-  }
+  } */
   .instruction-container {
     border-radius: 80px;
     flex-wrap: unset;

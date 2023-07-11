@@ -8,8 +8,9 @@
   text-transform: uppercase;
   max-width: 315px;
   width: 100%;
-  margin-bottom: 20px;
-  margin-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 80px;
+  margin: 0 auto;
 }
 .recall-text {
   color: var(--primary-dark-color);
@@ -20,13 +21,19 @@
   letter-spacing: -0.56px;
   max-width: 321px;
   width: 100%;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
 }
 
 .recall-form {
   display: inline-flex;
   justify-content: end;
   margin-bottom: 40px;
+  width: 335px;
+  height: 48px;
+}
+.recall-label {
+  width: 100%;
 }
 .recall-input {
   padding: 15px 0;
@@ -73,9 +80,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 335px;
+  height: 388px;
+  margin: 0 auto;
 }
 .recall-loc {
 }

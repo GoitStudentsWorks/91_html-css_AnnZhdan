@@ -121,11 +121,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .garden-btn {
-  margin-top: 40px;
+  margin-top: 20px;
   transform: rotate(-14deg);
   width: 80px;
   height: 80px;
@@ -218,6 +218,7 @@
   .garden-btn {
     width: 114px;
     height: 114px;
+    margin-top: 40px;
   }
 
   .garden-btn-text {
