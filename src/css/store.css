@@ -27,7 +27,7 @@
 }
 
 .garden-title {
-  color: #141414;
+  color: var(--primary-dark-color);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
@@ -40,7 +40,7 @@
 }
 .garden-text {
   max-width: 332px;
-  color: #141414;
+  color: var(--primary-dark-color);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
@@ -82,7 +82,7 @@
 }
 
 .garden-subtitle {
-  color: #141414;
+  color: var(--primary-dark-color);
   font-family: DM Sans;
   font-size: 32px;
   font-style: normal;
@@ -91,7 +91,7 @@
   letter-spacing: -1.28px;
 }
 .garden-list-text {
-  color: #141414;
+  color: var(--primary-dark-color);
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -116,7 +116,7 @@
   left: 0;
   margin-left: 20px;
   margin-bottom: 20px;
-  color: #141414;
+  color: var(--primary-dark-color);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -137,22 +137,22 @@
   transform: rotate(-14deg);
   width: 80px;
   height: 80px;
-  background-color: #fc8a11;
+  background-color: var(--accent-color);
   border-radius: 50%;
-  border: #fff;
-  color: white;
+  border: var(--white);
+  color: var(--white);
 }
 
 .garden-btn:hover {
-  background-color: #a1c487;
+  background-color: var(--primary-green-color);
 }
 
 .garden-btn-icon {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .garden-btn-text {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-family: DM Sans;
