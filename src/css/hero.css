@@ -13,7 +13,7 @@
 }
 
 .hero-reviews {
-  padding-bottom: 14px;
+  margin-bottom: 14px;
   position: relative;
 }
 
@@ -74,8 +74,11 @@
   line-height: 44px;
   letter-spacing: -1.6px;
   text-transform: uppercase;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
   min-width: unset;
+}
+.hero-header span {
+  font-style: italic;
 }
 .hero-tex {
   color: #fff;
@@ -84,7 +87,7 @@
   line-height: 18px;
   letter-spacing: -0.56px;
   min-width: unset;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .hero-btn {
   width: 68px;
@@ -117,7 +120,6 @@
 }
 .hero-tegs-wrapper {
   /* max-width: 375px; */
-
 }
 .hero-list {
   display: flex;
@@ -157,6 +159,9 @@
 @media screen and (min-width: 375px) {
   .hero {
   }
+  .hero-container {
+    padding: 0;
+  }
   .hero-header {
     /* min-width: 335px; */
     max-width: 335px;
@@ -187,7 +192,7 @@
     padding-right: 32px;
   }
   .hero-reviews {
-    padding-bottom: 18px;
+    margin-bottom: 18px;
   }
   .hero-reviews-photo1 {
     width: 50px;
@@ -228,12 +233,12 @@
     letter-spacing: -2.16px;
     min-width: 656px;
     max-width: 656px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
   .hero-tex {
     min-width: 490px;
     max-width: 490px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
   .hero-btn {
     width: 114px;
@@ -272,7 +277,11 @@
     max-width: 1280px;
     display: flex;
     flex-direction: row;
-    gap: 29px;
+    gap: 0;
+    padding-top: 66px;
+  }
+  .hero-first-wrapper {
+    padding-right: 0;
   }
   .hero-reviews-photo1 {
     width: 66px;
@@ -313,12 +322,12 @@
     letter-spacing: -2.56px;
     /* min-width: 672px;
     max-width: 672px; */
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
   .hero-tex {
     min-width: 491px;
     max-width: 491px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
   .hero-btn {
     width: 132px;
@@ -326,13 +335,16 @@
     font-size: 28px;
     line-height: 28px;
     letter-spacing: -1.12px;
+    margin: 0;
   }
   .hero-photo-img {
-    width: 515px;
+    width: 539px;
     height: 423px;
+    margin-bottom: 40px;
   }
   .hero-tegs-wrapper {
     max-width: 1280px;
+    padding-bottom: 4px;
   }
   .hero-list {
     gap: 8px;
