@@ -146,25 +146,35 @@
     margin-bottom: 40px;
     text-align: left;
     margin-right: 77px;
+    padding-bottom: 0;
   }
 
   .recall-text {
     max-width: 523px;
     margin-bottom: 80px;
     margin-left: inherit;
+    padding-bottom: 0;
+    text-align: left;
   }
   .recall-desc {
     display: inline-block;
   }
   .recall-line {
     display: block;
+    margin: 0;
   }
   .recall-img {
     display: inline-flex;
     background-image: url(/img/recall/bg-desc.png);
+    width: 525px;
+    height: 536px;
+    padding: 0;
+    margin: 0;
   }
   .recall-loc {
     display: flex;
     margin-top: 124px;
+    width: 1216px;
+    height: 536px;
   }
 }
