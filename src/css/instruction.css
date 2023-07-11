@@ -2,7 +2,6 @@
   width: 335px;
   border-radius: 40px;
   background-color: #faf3e7;
-  /* background-image: url(/img/instruction/BG.svg); */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
