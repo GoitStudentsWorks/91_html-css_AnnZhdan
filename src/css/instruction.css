@@ -2,11 +2,22 @@
   width: 335px;
   border-radius: 40px;
   background-color: #faf3e7;
-  background-image: url(/img/instruction/BG.svg);
+  background-image: url(/img/instruction/bg-mobile-1x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
   margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .instruction-container {
+    background-image: url(/img/instruction/bg-mobile-2x.png);
+  }
 }
 
 .instruction-img {
@@ -103,18 +114,31 @@
     /* padding: 0px 32px; */
     /* margin-bottom: 101px; */
   }
-  
+
   .instruction-container {
     padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
     background-color: #faf3e7;
-    background-image: url(/img/instruction/bg2.svg) width="704" height="488";
-    background-repeat: space;
+    background-image: url(/img/instruction/bg-tablet-1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(/img/instruction/bg2.svg) width="704" height="488";
+    background-repeat: space; */
     width: 704px;
     height: 488px;
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .instruction-container {
+      background-image: url(/img/instruction/bg-tablet-2x.png);
+    }
+  }
+
   .instruction-img {
     /* margin-top: 40px; */
     margin-left: 0;
@@ -157,12 +181,22 @@
     display: flex;
     flex-direction: row;
     background-color: #faf3e7;
-    background-image: url(/img/instruction/bg2.svg) width="1216" height="460";
-    background-repeat: space;
+    background-image: url(/img/instruction/bg-desktop-1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(/img/instruction/bg2.svg) width="1216" height="460"; */
+    /* background-repeat: space; */
     width: 1216px;
     height: 460px;
   }
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .instruction-container {
+      background-image: url(/img/instruction/bg-desktop-2x.png);
+    }
+  }
   .instruction-img {
     margin: 0;
     padding-top: 40px;
