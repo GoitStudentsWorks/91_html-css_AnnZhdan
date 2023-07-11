@@ -8,10 +8,18 @@
 .vegetable-container {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .vegetable-left {
   margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.vegetable-right {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .order-caption {
@@ -58,12 +66,15 @@
     max-width: 768px;
     padding: 0 32px;
   } */
-
-  .first-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .vegetable-left {
+    padding-left: 32px;
+    padding-right: 32px;
   }
-
+  
+  .vegetable-right {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .vegetable-left {
     display: flex;
     gap: 8px;

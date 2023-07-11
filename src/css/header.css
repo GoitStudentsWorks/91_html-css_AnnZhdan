@@ -4,22 +4,19 @@ min-width: 320px;
 }
 @media screen and (min-width: 768px){
   .header-container {
- 
    max-width: 768px;
   }
 }
 
 .header-container{
   display: flex;
+  justify-content: center;
   width: 100%;
 
 }
 @media screen and (min-width: 1280px){
   .header-container{
-  width: 100%;
-  max-width: 1280px;
-  padding-left: 0;
-   padding-right: 0;
+   max-width: 1280px;
   }
 }
 .nav-list{
@@ -86,16 +83,14 @@ margin-right: 193px;
   padding-top: 16px;
 padding-bottom: 16px;
 }
-.icon-burger{
-  border: none;
-  background: transparent;
- position: absolute;
- right: 0px;
- top: 17px;
- 
 
-  
+.icon-burger{
+ border: none;
+ padding: 0px;
+ display: block;
+ background-color: transparent;
 }
+  
 .burger{
   fill:var(--accent-green-color);
 }

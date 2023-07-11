@@ -1,14 +1,15 @@
 .hero {
   background-color: var(--primary-green-color);
-  width: 100%;
   padding-top: 48px;
   padding-bottom: 20px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .hero-container {
   max-width: 375px;
-  width: calc(100% - 40px);
+  /* width: calc(100% - 40px); */
   /* background-color: var(--primary-green-color); */
+  /* width: 100%; */
+  padding: 0;
 }
 
 .hero-reviews {
@@ -115,7 +116,8 @@
   margin: 0 auto;
 }
 .hero-tegs-wrapper {
-  max-width: 375px;
+  /* max-width: 375px; */
+
 }
 .hero-list {
   display: flex;
@@ -156,17 +158,33 @@
   .hero {
   }
   .hero-header {
-    min-width: 335px;
+    /* min-width: 335px; */
     max-width: 335px;
   }
   .hero-tex {
-    min-width: 335px;
+    /* min-width: 335px; */
     max-width: 335px;
+  }
+  .hero-first-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-second-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero-container {
     max-width: 768px;
+  }
+  .hero-first-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .hero-second-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .hero-reviews {
     padding-bottom: 18px;
@@ -293,8 +311,8 @@
     font-size: 64px;
     line-height: 75px;
     letter-spacing: -2.56px;
-    min-width: 672px;
-    max-width: 672px;
+    /* min-width: 672px;
+    max-width: 672px; */
     padding-bottom: 16px;
   }
   .hero-tex {

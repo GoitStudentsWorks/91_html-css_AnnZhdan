@@ -1,15 +1,16 @@
 .instruction-container {
-  /* width: 375px; */
+  width: 335px;
   border-radius: 40px;
   background-color: #faf3e7;
-  background-image: url();
+  background-image: url(/img/instruction/BG.svg);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
+  margin: 0 auto;
 }
 
 .instruction-img {
-  max-width: 100%;
+  width: 258px;
   height: 319px;
   margin-left: auto;
   margin-right: auto;
@@ -20,9 +21,10 @@
 .instruction-text {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
   /* margin: 40px 20px; */
 }
 .instruction-title {
@@ -48,6 +50,7 @@
   gap: 20px;
   width: 275px;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .instruction-item {
@@ -101,14 +104,20 @@
     margin-bottom: 101px;
   }
   .instruction-container {
-    margin: auto;
+    padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
+    background-color: #faf3e7;
+    background-image: url(/img/instruction/bg2.svg) width="704" height="488";
+    background-repeat: space;
+    width: 704px;
+    height: 488px;
   }
   .instruction-img {
     /* margin-top: 40px; */
     margin-left: 0;
+    padding-top: 40px;
     width: 350px;
     height: 446px;
   }
@@ -116,8 +125,9 @@
   .instruction-text {
     /* margin: 80px 40px; */
     width: 100%;
-    margin-top: 80px;
-    margin-left: 40px;
+    /* margin-top: 80px;
+    margin-left: 40px; */
+    padding: 80px 40px 80px 40px;
   }
   .instruction-title {
     width: 274px;
@@ -128,6 +138,7 @@
   }
   .instruction-list {
     width: 275px;
+    margin: 0;
   }
 }
 /*! ----------------D-E-S-K-T-O-P-------------- */
@@ -144,20 +155,27 @@
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
+    background-color: #faf3e7;
+    background-image: url(/img/instruction/bg2.svg) width="1216" height="460";
+    background-repeat: space;
+    width: 1216px;
+    height: 460px;
   }
 
   .instruction-img {
-    width: 434px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 432px;
     height: 420px;
-    margin-top: 40px;
-    margin-left: 80px;
     object-fit: unset;
     object-position: bottom;
   }
   .instruction-text {
     width: 100%;
-    margin-left: 110px;
-    margin-top: 80px;
+    padding: 80px 80px 84px 110px;
+    /* margin-left: 110px;
+    margin-top: 80px; */
     /* margin: auto; */
   }
   .instruction-title {

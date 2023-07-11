@@ -1,19 +1,11 @@
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style-type: none;
-}
-
 .garden-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  /*width: 100%;
   max-width: 375px;
-  margin: auto;
+  margin: auto;*/
 }
 
 .garden-cap {
