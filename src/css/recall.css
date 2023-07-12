@@ -132,10 +132,8 @@
     height: 463px;
     margin: 0 auto;
   }
-  .recall-loc {
-    padding: 0;
-  }
 }
+
 @media screen and (min-width: 1280px) {
   .recall-tittle {
     font-size: 48px;

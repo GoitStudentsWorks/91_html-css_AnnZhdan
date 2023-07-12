@@ -116,7 +116,6 @@
   } */
 
   .instruction-container {
-    padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;

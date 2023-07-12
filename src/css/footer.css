@@ -3,8 +3,9 @@ footer {
 }
 
 .footer-cont {
-    width: calc(100% - 64px);
-    padding: 80px 32px;
+    width: calc(100% - 40px);
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +140,7 @@ address {
 
 @media screen and (min-width: 768px) {
     .footer-cont {
-     
+        width: calc(100% - 64px);
         flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: row;
