@@ -70,7 +70,7 @@
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: 0.035em;
+  letter-spacing: -0.035em;
   position: relative;
   display: flex;
   align-items: center;
