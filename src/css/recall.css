@@ -32,6 +32,7 @@
   width: 335px;
   height: 48px;
 }
+
 .recall-label {
   width: 100%;
 }
@@ -43,6 +44,7 @@
   position: relative;
   padding-left: 24px;
 }
+
 .recall-input::placeholder {
   color: #c1bdbd;
   font-size: 14px;
@@ -56,9 +58,9 @@
 }
 .recall-btn {
   border-radius: 100px;
-  background: #fc8a11;
+  background: var(--accent-color);
   padding: 15px 35px;
-  color: #fff;
+  color: var(--white);
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -71,24 +73,21 @@
 }
 .recall-btn:hover,
 .recall-btn:focus {
-  background: #a1c487;
+  background: var(--primary-green-color);
 }
 .recall-img {
   border-radius: 40px;
-  background: #faf3e7;
+  background: var(--light-bg-color);
   background-image: url(/img/recall/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin-bottom: 80px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 335px;
   height: 388px;
-  margin: 0 auto;
-}
-.recall-loc {
+  margin-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -131,6 +130,7 @@
     padding-top: 80px;
     width: 704px;
     height: 463px;
+    margin: 0 auto;
   }
   .recall-loc {
     padding: 0;
