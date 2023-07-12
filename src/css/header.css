@@ -19,6 +19,7 @@ min-width: 320px;
 .header-container{
   display: flex;
   justify-content: flex-start;
+  max-width: 320px;
   width: calc(100% - 40px);
 
 }
@@ -119,7 +120,8 @@ padding-bottom: 16px;
   height: 100%;
   padding: 0 20px;
   z-index: 999;
-background-color:var(--primary-green-color);
+  padding: 0;
+ background-color:var(--primary-green-color);
  display: flex;
  flex-direction: column;
   transform: translateX(100%);
