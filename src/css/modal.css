@@ -467,6 +467,7 @@
     align-items: flex-start;
     gap: 14px;
     margin-left: 20px;
+    margin-bottom: 40px;
     width: 360px;
   }
 }
@@ -478,6 +479,7 @@
     align-items: flex-start;
     gap: 14px;
     margin-left: 30px;
+    margin-bottom: 40px;
     width: 360px;
   }
 }
@@ -497,14 +499,14 @@
 
 @media screen and (min-width: 768px) {
   .modal-girl-tab {
-    display: flex;
-    width: 444px;
-    height: 413px;
-    border-radius: 20px;
-    margin-top: 30px;
+    display: unset;
+    background-image: url(../img/modal/img-girl-tab.png);
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: auto 413px;
+    display: flex;
   }
 }
 
@@ -523,10 +525,9 @@
 @media screen and (min-width: 1158px) {
   .modal-girl-desk {
     display: unset;
-
-    margin-left: 40px;
-    margin-bottom: -10px;
-    border-radius: 20px;
+    background-image: url(../img/modal/img-girl-desk.png);
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: auto 413px;
