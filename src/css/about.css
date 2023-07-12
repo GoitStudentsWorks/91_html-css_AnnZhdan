@@ -8,6 +8,8 @@
 .vegetable-container {
   display: flex;
   flex-direction: column;
+  max-width: 320px;
+  width: calc(100% - 40px);
 }
 
 .vegetable-left {
@@ -58,6 +60,10 @@
   /* .container {
     max-width: 375px;
   } */
+  .vegetable-container {
+    max-width: 375px;
+    width: calc(100% - 40px);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -65,6 +71,10 @@
     max-width: 768px;
     padding: 0 32px;
   } */
+  .vegetable-container {
+    max-width: 768px;
+    width: calc(100% - 64px);
+  }
   .vegetable-left {
     padding-left: 32px;
     padding-right: 32px;
@@ -119,6 +129,10 @@
   /* .container {
     max-width: 1280px;
   } */
+  .vegetable-container {
+    max-width: 1280px;
+    width: calc(100% - 64px);
+  }
 
   .first-section {
     padding-top: 124px;
