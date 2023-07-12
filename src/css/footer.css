@@ -4,6 +4,7 @@ footer {
 
 .footer-cont {
     width: calc(100% - 40px);
+    max-width: 320px;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
@@ -126,20 +127,17 @@ address {
 
 /* MEDIA */
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 375px) {
+ .footer-cont {
+    max-width: 375px;
+    width: calc(100% - 40px);
+ }
+}
 
 
 @media screen and (min-width: 768px) {
     .footer-cont {
+        max-width: 768px;
         width: calc(100% - 64px);
         flex-wrap: wrap;
         align-items: flex-start;
@@ -174,9 +172,9 @@ address {
 @media screen and (min-width: 1280px) {
 
     .footer-cont {
+        max-width: 1280px;
+        width: calc(100% - 64px);
         flex-wrap: nowrap;
-       
-       
     }
 
     .footer-menu {

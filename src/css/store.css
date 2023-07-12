@@ -1,3 +1,4 @@
+
 .garden-container {
   display: flex;
   justify-content: center;
@@ -6,6 +7,8 @@
   /*width: 100%;
   max-width: 375px;
   margin: auto;*/
+    width: calc(100% - 40px);
+    max-width: 320px;
 }
 
 .garden-cap {
@@ -154,14 +157,16 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .garden-container {
     max-width: 375px;
+    width: calc(100% - 40px);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .garden-container {
     max-width: 768px;
+    width: calc(100% - 64px);
   }
 
   .garden-title {
@@ -223,8 +228,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .garden-container {
     max-width: 1280px;
+    width: calc(100% - 64px);
   }
 
   .garden-title {

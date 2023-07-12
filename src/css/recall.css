@@ -1,3 +1,8 @@
+.recall-loc {
+    max-width: 320px;
+    width: calc(100% - 40px);
+}
+
 .recall-tittle {
   color: var(--primary-dark-color);
   text-align: center;
@@ -85,12 +90,27 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 335px;
-  height: 388px;
+  /* width: 335px;
+  height: 388px; */
   margin: 0 auto;
 }
 
+@media screen and (min-width: 375px) {
+  .recall-loc {
+  max-width: 375px;
+  width: calc(100% - 40px);
+  }
+  .recall-img {
+  width: 335px;
+  height: 388px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .recall-loc {
+    max-width: 768px;
+    width: calc(100% - 64px);
+}
   .recall-tittle {
     font-size: 40px;
     line-height: 44px;
@@ -135,6 +155,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .recall-loc {
+    max-width: 1280px;
+    width: calc(100% - 64px);
+    }
   .recall-tittle {
     font-size: 48px;
     font-weight: 500;

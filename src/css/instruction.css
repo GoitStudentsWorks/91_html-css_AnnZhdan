@@ -5,10 +5,10 @@
   background-color: var(--light-bg-color);
   background-image: url(/img/instruction/bg-mobile-1x.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-position: center;
+  background-size:100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: column-reverse;
   margin: 0 auto;
 }
@@ -103,7 +103,12 @@
   /* .container {
     max-width: 335px;
   } */
+  .instruction-container {
+    width: calc(100% - 40px);
+    max-width: 375px;
 }
+}
+
 /*! -----------T-A-B-L-E-T------------- */
 @media screen and (min-width: 768px) {
   /* .container {
@@ -113,9 +118,12 @@
     padding: 0px 32px;
     margin-bottom: 101px;
   } */
+  .instruction-container {
+    width: calc(100% - 64px);
+    max-width: 768px;
+}
 
   .instruction-container {
-    padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
@@ -126,8 +134,8 @@
     background-size: cover;
     /* background-image: url(/img/instruction/bg2.svg) width="704" height="488";
     background-repeat: space; */
-    width: 704px;
-    height: 488px;
+    /* width: 704px;
+    height: 488px; */
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -175,6 +183,10 @@
     margin-bottom: 124px;
   } */
   .instruction-container {
+    width: calc(100% - 64px);
+    max-width: 1280px;
+}
+  .instruction-container {
     border-radius: 80px;
     flex-wrap: unset;
     display: flex;
@@ -186,8 +198,8 @@
     background-size: cover;
     /* background-image: url(/img/instruction/bg2.svg) width="1216" height="460"; */
     /* background-repeat: space; */
-    width: 1216px;
-    height: 460px;
+    /* width: 1216px;
+    height: 460px; */
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
