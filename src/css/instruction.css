@@ -1,9 +1,8 @@
-
 .instruction-container {
-  max-width: 320px;
+  width: 335px;
   border-radius: 40px;
-  /* background-color: var(--light-bg-color); */
-  /* background-image: url(/img/instruction/bg-mobile-1x.png); */
+  background-color: var(--light-bg-color);
+  background-image: url(/img/instruction/bg-mobile-1x.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -11,19 +10,13 @@
   flex-wrap: wrap;
   flex-direction: column-reverse;
   margin: 0 auto;
-  width: calc(100% - 40px);
-  }
-  .instruction-bg {
-    background-color: var(--light-bg-color);
-    position: absolute;
-    z-index: 0;
-    background-size: contain;
-  }
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .instruction-container {
-    /* background-image: url(/img/instruction/bg-mobile-2x.png); */
+    background-image: url(/img/instruction/bg-mobile-2x.png);
   }
 }
 
@@ -34,7 +27,6 @@
   margin-right: auto;
   object-fit: contain;
   object-position: bottom;
-  z-index: 1;
 }
 
 .instruction-text {
@@ -44,7 +36,6 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;
-  /* margin: 40px 20px; */
 }
 .instruction-title {
   width: 295px;
@@ -65,7 +56,6 @@
   list-style: none;
   display: inline-flex;
   flex-direction: column;
-  /* align-items: center; */
   gap: 20px;
   width: 275px;
   margin-bottom: 20px;
@@ -112,10 +102,6 @@
   /* .container {
     max-width: 335px;
   } */
-  .instruction-container {
-    max-width: 375px;
-    width: calc(100% - 40px);
-  }
 }
 /*! -----------T-A-B-L-E-T------------- */
 @media screen and (min-width: 768px) {
@@ -126,11 +112,9 @@
     padding: 0px 32px;
     margin-bottom: 101px;
   } */
+
   .instruction-container {
-    max-width: 768px;
-    width: calc(100% - 64px);
-  }
-  .instruction-container {
+    padding: 0;
     flex-wrap: unset;
     display: flex;
     flex-direction: row;
@@ -189,10 +173,6 @@
   /* .section-instruction {
     margin-bottom: 124px;
   } */
-  .instruction-container {
-    max-width: 1280px;
-    width: calc(100% - 64px);
-  }
   .instruction-container {
     border-radius: 80px;
     flex-wrap: unset;
