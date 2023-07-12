@@ -1,5 +1,6 @@
 .instruction-container {
-  width: 335px;
+  width: calc(100% - 40px);
+  max-width: 320px;
   border-radius: 40px;
   background-color: var(--light-bg-color);
   background-image: url(/img/instruction/bg-mobile-1x.png);
