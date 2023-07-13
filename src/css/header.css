@@ -2,6 +2,14 @@
 display: flex;
 min-width: 320px;
 }
+
+.header-container{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 320px;
+  width: calc(100% - 40px);
+
+}
 @media screen and (min-width: 375px){
   .header-container {
    max-width: 375px;
@@ -16,19 +24,13 @@ min-width: 320px;
   }
 }
 
-.header-container{
-  display: flex;
-  justify-content: flex-start;
-  max-width: 320px;
-  width: calc(100% - 40px);
-
-}
 @media screen and (min-width: 1280px){
   .header-container{
    max-width: 1280px;
    width: calc(100% - 64px);
   }
 }
+
 .nav-list{
   display: none;
 }
@@ -37,9 +39,6 @@ min-width: 320px;
     display: flex;
     gap: 14px;
   }
-  .header-container{
-    width: calc(100% - 32px);
-   }
  .nav{
   margin-right: 86px;
   padding-top: 16px;

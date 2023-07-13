@@ -3,6 +3,10 @@
     width: calc(100% - 40px);
 }
 
+.rec-section {
+  padding-top: 80px;
+}
+
 .recall-tittle {
   color: var(--primary-dark-color);
   text-align: center;
@@ -13,9 +17,7 @@
   text-transform: uppercase;
   max-width: 315px;
   width: 100%;
-  padding-bottom: 20px;
-  padding-top: 80px;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .recall-text {
   color: var(--primary-dark-color);
