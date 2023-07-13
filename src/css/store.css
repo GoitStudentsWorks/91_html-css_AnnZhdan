@@ -53,8 +53,8 @@
 }
 .garden-list {
   position: relative;
-  width: 335px;
-  height: 443px;
+  /* width: 335px; */
+  /* height: 443px; */
   background-color: #eaf7e5;
   border-radius: 10px;
 }
@@ -161,6 +161,10 @@
   .garden-container {
     max-width: 375px;
     width: calc(100% - 40px);
+  }
+  .garden-list {
+    width: 335px; 
+   height: 443px; 
   }
 }
 
